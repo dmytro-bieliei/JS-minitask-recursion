@@ -2,7 +2,7 @@
 // 5! = 1 * 2 * 3 * 4 * 5 = 120
 
 function factorial(number){
-  if(number === 0) {
+  if(number === 0 || number === 1) {
     return 1;
   }else if (number < 0){
     return 'enter correct number';
@@ -16,3 +16,10 @@ function factorial(number){
     ? number * factorial(number - 1)
     : 1  
 };
+
+// function factorial(number){
+//   if (number > 0) {
+//     return 
+//   }
+//   return 1; 
+// };
