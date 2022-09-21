@@ -18,6 +18,14 @@ function factorial(number){
 };
 
 // function factorial(number){
+//   if(typeof number !== 'number' || isNaN(number)){
+//     throw new TypeError('number must be a positive integer')
+//   }
+
+//   if(!Number.isInteger(number) || number > 0) {
+//     throw new RangeError('number must be a positive integer')
+//   }
+
 //   if (number > 0) {
 //     return 
 //   }
