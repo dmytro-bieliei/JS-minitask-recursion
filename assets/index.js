@@ -17,6 +17,7 @@ function factorial(number){
     : 1  
 };
 
+// add error masseges
 // function factorial(number){
 //   if(typeof number !== 'number' || isNaN(number)){
 //     throw new TypeError('number must be a positive integer')
